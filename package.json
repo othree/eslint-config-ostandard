@@ -1,22 +1,21 @@
 {
-  "name": "eslint-config-semistandard",
-  "description": "eslint sharable config for semistandard",
-  "version": "8.0.0",
-  "author": "Dan Flettre <fletd01@yahoo.com>",
+  "name": "eslint-config-ostandard",
+  "description": "eslint sharable config for airbnb + react + .tsx",
+  "version": "0.0.1",
+  "author": "othree <othree@gmail.com>",
   "bugs": {
-    "url": "https://github.com/Flet/eslint-config-semistandard/issues"
+    "url": "https://github.com/othree/eslint-config-ostandard/issues"
   },
   "devDependencies": {
     "eslint": "^3.4.0",
-    "eslint-config-standard": "^7.0.0",
-    "eslint-plugin-standard": "^2.0.0",
     "standard": "^9.0.0",
     "tap-spec": "^4.0.0",
     "tape": "^4.6.0"
   },
-  "homepage": "https://github.com/Flet/eslint-config-semistandard",
+  "homepage": "https://github.com/othree/eslint-config-ostandard",
   "keywords": [
-    "semistandard",
+    "ostandard",
+    "airbnb",
     "style checker",
     "code style",
     "code checker",
@@ -38,20 +37,18 @@
     "quality",
     "checker",
     "code standards",
-    "JavaScript Semistandard Style",
-    "semistandard style",
     "eslintconfig"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flet/eslint-config-semistandard.git"
+    "url": "https://github.com/othree/eslint-config-ostandard.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"
   },
-  "peerDependencies": {
-    "eslint-config-standard": "^7.0.0"
+  "dependencies": {
+    "eslint-config-airbnb": "^14.1.0"
   }
 }
