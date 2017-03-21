@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ostandard",
   "description": "eslint sharable config for airbnb + react + .tsx",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "othree <othree@gmail.com>",
   "bugs": {
     "url": "https://github.com/othree/eslint-config-ostandard/issues"
