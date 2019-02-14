@@ -1,4 +1,4 @@
-# eslint-config-otandard
+# eslint-config-ostandard
 
 eslint sharable config for stadnard + react + tsx
 
