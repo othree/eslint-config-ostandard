@@ -52,6 +52,6 @@
     "test": "standard && tape test/*.js | tap-spec"
   },
   "peerDependencies": {
-    "eslint-config-standard": "^7.1.0"
+    "eslint-config-standard": "^12.0.0"
   }
 }
